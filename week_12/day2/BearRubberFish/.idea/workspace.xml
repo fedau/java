@@ -4,22 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8779619-9a26-4f40-93fb-eae2da5e1d55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Arrays/src/main/java/HashMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/River.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Salmon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BearTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RiverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Bear.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/River.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Salmon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/BearTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/RiverTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arrays/src/main/java/NumberList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/main/java/NumberList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arrays/src/test/java/NumberListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/test/java/NumberListTest.java" afterDir="false" />
+    <list default="true" id="c8779619-9a26-4f40-93fb-eae2da5e1d55" name="Changes" comment="bear and river multiple class">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookLibrary/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookLibrary/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookLibrary/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookLibrary/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookLibrary/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookLibrary/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookLibrary/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookLibrary/src/main/java/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookLibrary/src/main/java/Borrower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookLibrary/src/main/java/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookLibrary/src/test/java/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookLibrary/src/test/java/BorrowerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookLibrary/src/test/java/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +115,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675775237086</updated>
     </task>
+    <task id="LOCAL-00001" summary="bear and river multiple class">
+      <created>1675778004912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675778004912</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,5 +135,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bear and river multiple class" />
+    <option name="LAST_COMMIT_MESSAGE" value="bear and river multiple class" />
   </component>
 </project>
