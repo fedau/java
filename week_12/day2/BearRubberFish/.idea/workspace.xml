@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8779619-9a26-4f40-93fb-eae2da5e1d55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Arrays/src/main/java/HashMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/River.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Salmon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BearTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RiverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Bear.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/River.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Salmon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/BearTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/RiverTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/main/java/NumberList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/main/java/NumberList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/test/java/NumberListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/test/java/NumberListTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LPaaYDTjpCplRgoVcKnfRwCSjW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.RiverTest.canAddSalmon">
+    <configuration name="BearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BearRubberFish" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BearTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BearTest.bearCanEatsSalmon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BearRubberFish" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BearTest" />
+      <option name="METHOD_NAME" value="bearCanEatsSalmon" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RiverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BearRubberFish" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RiverTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RiverTest.canAddSalmon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BearRubberFish" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RiverTest" />
+      <option name="METHOD_NAME" value="canAddSalmon" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RiverTest.canAddSalmon" />
+        <item itemvalue="JUnit.RiverTest" />
+        <item itemvalue="JUnit.BearTest" />
+        <item itemvalue="JUnit.BearTest.bearCanEatsSalmon" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8779619-9a26-4f40-93fb-eae2da5e1d55" name="Changes" comment="" />
+      <created>1675775237086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675775237086</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

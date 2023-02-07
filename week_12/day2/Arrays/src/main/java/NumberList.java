@@ -5,8 +5,8 @@ public class NumberList {
     private ArrayList<Integer> numbers;
 
 
-    public NumberList(){
-        this.numbers = new ArrayList<>();
+    public NumberList(ArrayList<Integer> numbers){
+        this.numbers = numbers;
     }
 
     public int getNumberCount() {
@@ -15,5 +15,25 @@ public class NumberList {
 
     public void addNumbers(int number) {
         this.numbers.add(number);
+    }
+
+    public int getNumberAtIndex(int index) {
+        return this.numbers.get(index);
+    }
+
+//    public int getTotal() {
+//       int total = 0;
+//       for(int i  = 0; i < getNumberCount(); i++){
+//           total += getNumberAtIndex(i);
+//       }
+//       return total;
+//    }
+//another way to loop over a number list
+    public int getTotal() {
+        int total = 0;
+        for(int number : this.numbers){
+            total += number;
+        }
+        return total;
     }
 }
