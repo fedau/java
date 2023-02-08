@@ -6,5 +6,8 @@ public class Student extends Person {
         super(name, cohort);
     }
 
+    public String talk(String language){
+        return "I love learning " + language;
+    }
 
 }
