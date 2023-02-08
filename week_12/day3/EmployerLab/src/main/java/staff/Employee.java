@@ -24,11 +24,11 @@ public abstract class Employee {
         return salery;
     }
 
-    public void raiseSalery(double payRaiseParam){
+    public double raiseSalery(double payRaiseParam){
         if(payRaiseParam >= 0) {
-            this.salery += payRaiseParam;
+            return this.salery += payRaiseParam;
         }
-
+        return payRaiseParam;
     }
 
     public double payBonus(){

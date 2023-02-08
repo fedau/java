@@ -4,29 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="659d619c-00e8-494d-aec2-7489ee317c89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/managment/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/managment/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/techStaff/DatabaseAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/techStaff/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DatabaseAdminTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DeveloperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Managertest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/staff/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/staff/managment/Manager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abstract_classes_startpoint/src/main/java/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abstract_classes_startpoint/target/classes/Runner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../packages_start_point/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../packages_start_point/src/main/java/animal/air/Bird.java" afterDir="false" />
+    <list default="true" id="659d619c-00e8-494d-aec2-7489ee317c89" name="Changes" comment="lab">
+      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/src/main/java/CEO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/src/main/java/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/src/test/java/CEOtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/staff/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/staff/Employee.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +117,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675864167038</updated>
     </task>
+    <task id="LOCAL-00001" summary="lab">
+      <created>1675868970849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675868970849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab" />
   </component>
 </project>
