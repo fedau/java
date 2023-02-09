@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="659d619c-00e8-494d-aec2-7489ee317c89" name="Changes" comment="lab">
-      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/src/main/java/CEO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/src/main/java/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inheritancePDAExample/src/test/java/CEOtest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/staff/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/staff/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/managment/Director.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/managment/Manager.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
