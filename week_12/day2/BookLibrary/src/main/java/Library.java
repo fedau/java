@@ -32,3 +32,7 @@ public class Library {
 //
 //    }
 }
+
+for( room : this.bedroom; room == bedroom1){
+    return room.guests.size
+        }
