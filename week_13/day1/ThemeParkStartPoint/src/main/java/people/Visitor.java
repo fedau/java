@@ -2,7 +2,7 @@ package people;
 
 public class Visitor {
 
-    private int age;
+    private  int age;
     private double height;
     private double money;
 
@@ -12,7 +12,7 @@ public class Visitor {
         this.money = money;
     }
 
-    public int getAge() {
+    public  int getAge() {
         return age;
     }
 
