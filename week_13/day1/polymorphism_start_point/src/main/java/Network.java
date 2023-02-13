@@ -3,11 +3,11 @@ import java.util.*;
 public class Network {
     private String name;
     private ArrayList<Desktop> devicesDesktop;
-    private ArrayList<Printer> devicesPrinter;
+    private ArrayList<IConnect> devices;
 
     public Network(String name){
         this.devicesDesktop = new ArrayList<Desktop>();
-        this.devicesPrinter = new ArrayList<Printer>();
+        this.devices = new ArrayList<IConnect>();
         this.name = name;
     }
 
@@ -16,19 +16,16 @@ public class Network {
     }
 
     public int deviceCount(){
-        return devicesDesktop.size() + devicesPrinter.size();
+        return devices.size();
     }
 
-    public void connect(Desktop desktop){
-        devicesDesktop.add(desktop);
+    public void connect(IConnect device){
+        devices.add(device);
     }
 
-    public void connect(Printer printer){
-        devicesPrinter.add(printer);
-    }
+
 
     public void disconnectAll(){
-        devicesDesktop.clear();
-        devicesPrinter.clear();
+        devices.clear();
     }
 }
