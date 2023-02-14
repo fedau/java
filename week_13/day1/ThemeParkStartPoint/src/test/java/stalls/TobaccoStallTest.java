@@ -15,7 +15,7 @@ public class TobaccoStallTest {
     Visitor visitorParent;
     @Before
     public void setUp() throws Exception {
-        tobaccoStall = new TobaccoStall("Jacks Drum", "Jack Jarvis", ParkingSpot.B1);
+        tobaccoStall = new TobaccoStall("Jacks Drum", "Jack Jarvis", 4 ,ParkingSpot.B1);
         visitorChild = new Visitor(12, 150, 15.5);
         visitorParent = new Visitor(18, 190, 35);
     }
@@ -39,6 +39,8 @@ public class TobaccoStallTest {
     public void canGoOnPlayground() {
         assertEquals(false, tobaccoStall.isAllowedTo(visitorChild));
     }
+
+
 
     @Test
     public void canNotGoOnPlayground(){
