@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97b2e8a4-8b81-4378-9560-9918f370a73e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/target/classes/Search.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/target/test-classes/SearchTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/main/java/behaviours/IPurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/main/java/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/main/java/dealership/Dealership.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/main/java/vehicle/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/main/java/vehicle/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/main/java/vehicle/HybridCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/main/java/vehicle/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/main/java/vehicle/parts/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/main/java/vehicle/parts/GearBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/main/java/vehicle/parts/Tyres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/test/java/customer/Customertest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/test/java/dealership/DealershipTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/test/java/vehicle/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/test/java/vehicle/ElectriccarTEst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/test/java/vehicle/HybridCarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/test/java/vehicle/VehicleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/test/java/vehicle/parts/EngineTEst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/test/java/vehicle/parts/GearBoxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/src/test/java/vehicle/parts/TyresTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/target/classes/customer/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/target/classes/dealership/Dealership.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/target/classes/vehicle/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/target/classes/vehicle/ElectricCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/target/classes/vehicle/HybridCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/target/classes/vehicle/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/target/classes/vehicle/parts/Engine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/target/classes/vehicle/parts/GearBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/target/classes/vehicle/parts/Tyres.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/target/test-classes/customer/Customertest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/target/test-classes/dealership/DealershipTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/target/test-classes/vehicle/VehicleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/target/test-classes/vehicle/parts/EngineTEst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/target/test-classes/vehicle/parts/GearBoxTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CarDealer/target/test-classes/vehicle/parts/TyresTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Coffee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Drink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Lizard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Tea.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LmByGL93ynN5sOVTtJVUQnOJVO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="pda" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Runner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97b2e8a4-8b81-4378-9560-9918f370a73e" name="Changes" comment="" />
+      <created>1676466631518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676466631518</updated>
+    </task>
+    <servers />
+  </component>
+</project>

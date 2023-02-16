@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f13ce7dd-7ba1-47b9-bcf2-f5e8c6a068db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/target/classes/Search.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/target/test-classes/SearchTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/IPurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dealership/Dealership.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/HybridCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/parts/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/parts/GearBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/parts/Tyres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/customer/Customertest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dealership/DealershipTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vehicle/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vehicle/ElectriccarTEst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vehicle/HybridCarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vehicle/VehicleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vehicle/parts/EngineTEst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vehicle/parts/GearBoxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vehicle/parts/TyresTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/customer/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dealership/Dealership.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vehicle/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vehicle/ElectricCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vehicle/HybridCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vehicle/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vehicle/parts/Engine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vehicle/parts/GearBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vehicle/parts/Tyres.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/customer/Customertest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/dealership/DealershipTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/vehicle/VehicleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/vehicle/parts/EngineTEst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/vehicle/parts/GearBoxTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/vehicle/parts/TyresTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/src/main/java/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/src/main/java/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/target/classes/Coffee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/target/classes/Drink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/target/classes/Lizard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/target/classes/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pda/target/classes/Tea.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LjRdnN8GyneEQD29PBoiDPvvqB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/fedau/Desktop/G34/codeclan_work/java/week_13/day_2/CarDealer/src/test/java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="vehicle" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DealershipTest.canSellCarToCustomer">
+    <configuration name="All in CarDealer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarDealer" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DealershipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarDealer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dealership.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dealership" />
+      <option name="MAIN_CLASS_NAME" value="dealership.DealershipTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DealershipTest.canSellCarToCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarDealer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dealership.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dealership" />
+      <option name="MAIN_CLASS_NAME" value="dealership.DealershipTest" />
+      <option name="METHOD_NAME" value="canSellCarToCustomer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DealershipTest.canSellCarToCustomerGetCustomerStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarDealer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dealership.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dealership" />
+      <option name="MAIN_CLASS_NAME" value="dealership.DealershipTest" />
+      <option name="METHOD_NAME" value="canSellCarToCustomerGetCustomerStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DealershipTest.canSellCarToCustomerGetTill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarDealer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dealership.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dealership" />
+      <option name="MAIN_CLASS_NAME" value="dealership.DealershipTest" />
+      <option name="METHOD_NAME" value="canSellCarToCustomerGetTill" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DealershipTest.canSellCarToCustomer" />
+        <item itemvalue="JUnit.DealershipTest" />
+        <item itemvalue="JUnit.DealershipTest.canSellCarToCustomerGetCustomerStock" />
+        <item itemvalue="JUnit.DealershipTest.canSellCarToCustomerGetTill" />
+        <item itemvalue="JUnit.All in CarDealer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f13ce7dd-7ba1-47b9-bcf2-f5e8c6a068db" name="Changes" comment="" />
+      <created>1676382596480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676382596480</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dealership/DealershipTest.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
