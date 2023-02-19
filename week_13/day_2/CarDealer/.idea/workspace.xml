@@ -5,71 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13ce7dd-7ba1-47b9-bcf2-f5e8c6a068db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/target/classes/Search.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AlgorithmsStartPoint/target/test-classes/SearchTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/IPurchase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dealership/Dealership.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/ElectricCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/HybridCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/parts/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/parts/GearBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/parts/Tyres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/customer/Customertest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dealership/DealershipTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vehicle/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vehicle/ElectriccarTEst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vehicle/HybridCarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vehicle/VehicleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vehicle/parts/EngineTEst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vehicle/parts/GearBoxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vehicle/parts/TyresTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/customer/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dealership/Dealership.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vehicle/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vehicle/ElectricCar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vehicle/HybridCar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vehicle/Vehicle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vehicle/parts/Engine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vehicle/parts/GearBox.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vehicle/parts/Tyres.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/customer/Customertest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/dealership/DealershipTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/vehicle/VehicleTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/vehicle/parts/EngineTEst.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/vehicle/parts/GearBoxTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/vehicle/parts/TyresTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/src/main/java/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/src/main/java/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/src/main/java/Tea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/target/classes/Coffee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/target/classes/Drink.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/target/classes/Lizard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/target/classes/Runner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pda/target/classes/Tea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/src/main/java/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extra_material/Streams/src/main/java/Streams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extra_material/Streams/src/main/java/Streams2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../extra_material/try_catch_exceptions/code/ExceptionsExampleStart/src/main/java/exceptions/NullStringException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/DrumSticks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/GuitarString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/SheetMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/instruments/Guitar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/instruments/InstrumentSuper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/instruments/Piano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/instruments/Playable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/instruments/Trumpet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/instruments/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/shop/Sellable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/shop/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/DrumSticksTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/GuitarString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/GuitarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/InstrumentSuperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/ItemsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/PianoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/SheetMusicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/ShopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/TrumpetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../extra_material/try_catch_exceptions/code/ExceptionsExampleStart/src/main/java/ExampleTryCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../extra_material/try_catch_exceptions/code/ExceptionsExampleStart/src/main/java/ExampleTryCatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../extra_material/try_catch_exceptions/code/ExceptionsExampleStart/src/main/java/PetShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../extra_material/try_catch_exceptions/code/ExceptionsExampleStart/src/main/java/PetShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../extra_material/try_catch_exceptions/code/ExceptionsExampleStart/src/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../extra_material/try_catch_exceptions/code/ExceptionsExampleStart/src/main/java/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,13 +76,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/fedau/Desktop/G34/codeclan_work/java/week_13/day_2/CarDealer/src/test/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/fedau/Desktop/G34/codeclan_work/java/week_13/day_2/CarDealer/src/test/java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java" />
