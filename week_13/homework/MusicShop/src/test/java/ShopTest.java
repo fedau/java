@@ -27,9 +27,9 @@ public class ShopTest {
 
     @Test
     public void TotalProfit(){
-        shop.addItems(trumpet);
-        shop.addItems(piano);
-        shop.addItems(sheetMusic);
+        shop.addsellable(trumpet);
+        shop.addsellable(piano);
+        shop.addsellable(sheetMusic);
         assertEquals(152.5, shop.Profit(), 0.01);
     }
 

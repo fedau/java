@@ -5,45 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13ce7dd-7ba1-47b9-bcf2-f5e8c6a068db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/src/main/java/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../extra_material/SingletonEx/src/main/java/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../extra_material/Streams/src/main/java/Streams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../extra_material/Streams/src/main/java/Streams2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../extra_material/try_catch_exceptions/code/ExceptionsExampleStart/src/main/java/exceptions/NullStringException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/DrumSticks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/GuitarString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/SheetMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/instruments/Guitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/instruments/InstrumentSuper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/instruments/Piano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/instruments/Playable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/instruments/Trumpet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/Item/instruments/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/shop/Sellable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/main/java/shop/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/DrumSticksTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/GuitarString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/GuitarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/InstrumentSuperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/ItemsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/PianoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/SheetMusicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/ShopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework/MusicShop/src/test/java/TrumpetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../extra_material/try_catch_exceptions/code/ExceptionsExampleStart/src/main/java/ExampleTryCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../extra_material/try_catch_exceptions/code/ExceptionsExampleStart/src/main/java/ExampleTryCatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../extra_material/try_catch_exceptions/code/ExceptionsExampleStart/src/main/java/PetShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../extra_material/try_catch_exceptions/code/ExceptionsExampleStart/src/main/java/PetShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../extra_material/try_catch_exceptions/code/ExceptionsExampleStart/src/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../extra_material/try_catch_exceptions/code/ExceptionsExampleStart/src/main/java/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -8,13 +8,18 @@ import java.util.ArrayList;
 
 public class Shop {
     public ArrayList<Items> stockItems;
+    public ArrayList<Sellable> sellables;
 
     public Shop(){
         this.stockItems = new ArrayList<Items>();
+        this.sellables = new ArrayList<Sellable>();
     }
 
     public ArrayList<Items> getStockItems() {
         return stockItems;
+    }
+    public ArrayList<Sellable> getSellableItems() {
+        return sellables;
     }
 
     public void setStockItems(ArrayList<Items> stockItems) {
@@ -24,8 +29,8 @@ public class Shop {
     public double Profit(){
         double totalProfit = 0;
 
-        for (Items item : this.stockItems) {
-            totalProfit += item.markup();
+        for (Sellable sellables : this.sellables) {
+            totalProfit += sellables.markup();
         }
 
         return totalProfit;
@@ -33,5 +38,9 @@ public class Shop {
 
     public void addItems(Items item) {
         this.stockItems.add(item);
+    }
+
+    public void addsellable(Sellable sellable) {
+        this.sellables.add(sellable);
     }
 }
