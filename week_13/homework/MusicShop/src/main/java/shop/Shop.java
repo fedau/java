@@ -43,4 +43,5 @@ public class Shop {
     public void addsellable(Sellable sellable) {
         this.sellables.add(sellable);
     }
+
 }
