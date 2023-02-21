@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f744d7ec-bcac-41a9-8055-0bc3331d871d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../day1/employees/src/main/java/com/example/employees/controllers/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day1/employees/src/main/java/com/example/employees/models/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day1/employees/src/main/java/com/example/employees/repositories/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day1/pirateservice/src/main/java/com/codeclan/example/pirateservice/controllers/PirateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day1/pirateservice/src/main/java/com/codeclan/example/pirateservice/models/Pirate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day1/pirateservice/src/main/java/com/codeclan/example/pirateservice/repositories/PirateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/pirateservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/pirateservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1/pirateservice/src/test/java/com/codeclan/example/pirateservice/PirateserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day1/pirateservice/src/test/java/com/codeclan/example/pirateservice/PirateserviceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2M38lPT36YzDQOAMCABeWyOyBuW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/fedau/Desktop/G34/codeclan_work/java/week_14/day_2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f744d7ec-bcac-41a9-8055-0bc3331d871d" name="Changes" comment="" />
+      <created>1676985055669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676985055669</updated>
+    </task>
+    <servers />
+  </component>
+</project>
