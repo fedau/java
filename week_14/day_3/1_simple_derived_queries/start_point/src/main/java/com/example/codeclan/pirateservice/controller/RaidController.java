@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 public class RaidController {
@@ -17,7 +18,10 @@ public class RaidController {
     RaidRepository raidRepository;
 
     @GetMapping(value = "/raids")
-    public ResponseEntity<List<Raid>> getAllRaids(){
+    public ResponseEntity<List<Raid>> getAllRaids(@RequestParam Optional<String> findRaidByLocation){
+        if (findRaidByLocation.isPresent()){
+            return new ResponseEntity<>(raidRepository.findByLocation(findRaidByLocation.get()), HttpStatus.OK);
+        }
         return new ResponseEntity<>(raidRepository.findAll(), HttpStatus.OK);
     }
 

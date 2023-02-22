@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 public class ShipController {
@@ -16,8 +17,20 @@ public class ShipController {
     @Autowired
     ShipRepository shipRepository;
 
+//    @GetMapping(value = "/ships")
+//    public ResponseEntity<List<Ship>> getAllShips(@RequestParam(required = false) String pirateFirstName){
+//        if(pirateFirstName != null){
+//            return new ResponseEntity<>(shipRepository.findByPiratesFirstName(pirateFirstName), HttpStatus.OK);
+//        }
+//        return new ResponseEntity<>(shipRepository.findAll(), HttpStatus.OK);
+//    }
+
+//    Java 8 Optionals
     @GetMapping(value = "/ships")
-    public ResponseEntity<List<Ship>> getAllShips(){
+    public ResponseEntity<List<Ship>> getAllShips(@RequestParam Optional<String> pirateFirstName){
+        if(pirateFirstName.isPresent()){
+            return new ResponseEntity<>(shipRepository.findByPiratesFirstName(pirateFirstName.get()), HttpStatus.OK);
+        }
         return new ResponseEntity<>(shipRepository.findAll(), HttpStatus.OK);
     }
 
