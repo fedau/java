@@ -37,6 +37,7 @@ public class DistilleryController {
     @PostMapping(value = "/distileries")
     public ResponseEntity<Distillery> createdistileries(@RequestBody Distillery distillery){
         distilleryRepository.save(distillery);
+
         return new ResponseEntity<>(distillery, HttpStatus.CREATED);
     }
 
