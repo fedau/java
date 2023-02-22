@@ -13,6 +13,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.List;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 @RunWith(SpringRunner.class)
 @ActiveProfiles("test") //Indicates it's a test profile so will not run DataLoader
 @SpringBootTest
@@ -53,8 +58,33 @@ public class PirateserviceApplicationTests {
 		spongeBob.addRaid(raid);
 		raid.addPirate(spongeBob);
 		raidRepository.save(raid);
-		
 	}
+
+	@Test
+	public void canfindPiratesOver30(){
+		List<Pirate> foundPirates = pirateRepository.findByAgeGreaterThan(30);
+		assertEquals(9, foundPirates.size());
+	}
+
+	@Test
+	public void canFindPirateByName(){
+		List<Pirate> foundPirates = pirateRepository.findByFirstName("Horatio");
+		assertEquals(1, foundPirates.size());
+	}
+
+	@Test
+	public void canFindRaidByLocation(){
+		List<Raid> foundRaids = raidRepository.findByLocation("Tortuga");
+		assertEquals(3, foundRaids.size());
+	}
+
+	@Test
+	public void canCountPiratesOver30(){
+		long countOfPirates = pirateRepository.countByAgeGreaterThan(30);
+		assertEquals(9, countOfPirates);
+	}
+
+
 
 
 }
