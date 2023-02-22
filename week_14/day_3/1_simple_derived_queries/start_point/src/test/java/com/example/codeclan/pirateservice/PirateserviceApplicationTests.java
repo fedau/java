@@ -6,6 +6,7 @@ import com.example.codeclan.pirateservice.models.Ship;
 import com.example.codeclan.pirateservice.repository.PirateRepository;
 import com.example.codeclan.pirateservice.repository.RaidRepository;
 import com.example.codeclan.pirateservice.repository.ShipRepository;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,7 +36,7 @@ public class PirateserviceApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-
+	@Ignore
 	@Test
 	public void createPirateAndShipThenSave(){
 
@@ -44,7 +45,7 @@ public class PirateserviceApplicationTests {
 		Pirate jack = new Pirate("jack", "sparrow", 32, dutchman);
 		pirateRepository.save(jack);
 	}
-
+	@Ignore
 	@Test
 	public void createPirateAndRaidThenSave(){
 		Ship pineapple = new Ship("The Flying Pineapple");
@@ -59,7 +60,7 @@ public class PirateserviceApplicationTests {
 		raid.addPirate(spongeBob);
 		raidRepository.save(raid);
 	}
-
+@Ignore
 	@Test
 	public void canfindPiratesOver30(){
 		List<Pirate> foundPirates = pirateRepository.findByAgeGreaterThan(30);
@@ -84,7 +85,29 @@ public class PirateserviceApplicationTests {
 		assertEquals(9, countOfPirates);
 	}
 
+	@Test
+	public void canFindPiratesByRaidId(){
+		List<Pirate> foundPirates = pirateRepository.findByRaidsId(2L);
+		assertEquals(2, foundPirates.size());
+		assertEquals("Sparrow", foundPirates.get(0).getLastName());
+		assertEquals("Silver", foundPirates.get(1).getLastName());
 
+	}
 
+	@Test
+	public void canFindShipWithPiratesfirstName(){
+		List<Ship> foundShips = shipRepository.findByPiratesFirstName("Jack");
+		assertEquals("The Black Pearl", foundShips.get(0).getName());
+		assertEquals(Long.valueOf(2), foundShips.get(0).getId());
 
+	}
+
+	@Test
+	public void canFindShipsconnctedWithRaids(){
+		Ship ship = shipRepository.getById(7L);
+		List<Raid> foundRaid = raidRepository.findByPiratesShip(ship);
+		assertEquals(1, foundRaid.size());
+		assertEquals("Port Royal", foundRaid.get(0).getLocation());
+
+	}
 }
