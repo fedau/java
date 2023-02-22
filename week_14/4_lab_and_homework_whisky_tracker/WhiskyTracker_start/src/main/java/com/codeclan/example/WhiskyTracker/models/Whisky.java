@@ -23,7 +23,7 @@ public class Whisky {
     private int age;
 
     @ManyToOne
-    @JsonBackReference
+    @JsonIgnoreProperties({"whiskies"})
     @JoinColumn(name = "distillery_id", nullable = false)
     private Distillery distillery;
 

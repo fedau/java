@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 public class DistilleryController {
@@ -17,7 +18,15 @@ public class DistilleryController {
     DistilleryRepository distilleryRepository;
 
     @GetMapping(value = "/distileries")
-    public ResponseEntity<List<Distillery>> getAlDistileries(){
+    public ResponseEntity<List<Distillery>> getAlDistileries(@RequestParam Optional<String> region,
+                                                             @RequestParam Optional<Integer> whiskiesAge){
+        if(region.isPresent()) {
+            return new ResponseEntity<>(distilleryRepository.findByRegion(region.get()), HttpStatus.OK);
+
+        } else if (whiskiesAge.isPresent()) {
+            return  new ResponseEntity<>(distilleryRepository.findByWhiskiesAge(whiskiesAge.get()), HttpStatus.OK);
+
+        }
         return new ResponseEntity<>(distilleryRepository.findAll(), HttpStatus.OK);
     }
 
