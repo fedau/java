@@ -18,9 +18,9 @@ public class RaidController {
     RaidRepository raidRepository;
 
     @GetMapping(value = "/raids")
-    public ResponseEntity<List<Raid>> getAllRaids(@RequestParam Optional<String> findRaidByLocation){
-        if (findRaidByLocation.isPresent()){
-            return new ResponseEntity<>(raidRepository.findByLocation(findRaidByLocation.get()), HttpStatus.OK);
+    public ResponseEntity<List<Raid>> getAllRaids(@RequestParam Optional<String> location){
+        if (location.isPresent()){
+            return new ResponseEntity<>(raidRepository.findByLocation(location.get()), HttpStatus.OK);
         }
         return new ResponseEntity<>(raidRepository.findAll(), HttpStatus.OK);
     }
