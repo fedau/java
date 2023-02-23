@@ -18,13 +18,14 @@ public class WhiskyController {
 
     @GetMapping(value = "/whiskies")
     public ResponseEntity<List<Whisky>> getAllWhiskies(@RequestParam Optional<Integer> year, @RequestParam Optional<String> distilleryName,
-                                                       @RequestParam Optional<Integer> age, @RequestParam Optional<String> region){
+                                                       @RequestParam Optional<Integer> age , @RequestParam Optional<String> region){
         if(year.isPresent()){
             return new ResponseEntity<>(whiskyRepository.findByYear(year.get()), HttpStatus.OK);
-        } else if (distilleryName.isPresent() && age.isPresent()) {
+        }
+        if (distilleryName.isPresent() && age.isPresent()) {
             return new ResponseEntity<>(whiskyRepository.findByDistilleryNameAndAge(distilleryName.get(), age.get()), HttpStatus.OK);
         }
-        else if (region.isPresent()) {
+        if (region.isPresent()) {
             return new ResponseEntity<>(whiskyRepository.findByDistilleryRegion(region.get()),HttpStatus.OK);
 
         }
