@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 public class PirateController {
@@ -29,6 +30,13 @@ public class PirateController {
     public ResponseEntity<Pirate> postPirate(@RequestBody Pirate pirate){
         pirateRepository.save(pirate);
         return new ResponseEntity<>(pirate, HttpStatus.CREATED);
+    }
+
+    @DeleteMapping(value = "/pirates/{id}")
+    public ResponseEntity<Pirate> deletePirate(@PathVariable Long id){
+       Optional<Pirate>pirateToDelete = pirateRepository.findById(id);
+       pirateRepository.delete(pirateToDelete.get());
+       return new ResponseEntity<>(pirateToDelete.get(), HttpStatus.OK);
     }
 
 }
