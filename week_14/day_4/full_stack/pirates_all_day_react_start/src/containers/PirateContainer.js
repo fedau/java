@@ -39,7 +39,7 @@ const PirateContainer = () => {
 
   const handleDelete = (id) => {
     const request = new Request();
-    const url = '/api/pirates' + id;
+    const url = '/api/pirates/' + id;
     request.delete(url).then(() => {
       window.location = '/pirates';
 
