@@ -3,6 +3,7 @@ import { Route, Routes, useParams } from 'react-router-dom';
 import PirateList from '../components/pirates/PirateList';
 import PirateDetail from '../components/pirates/PirateDetail';
 import PirateForm from '../components/pirates/PirateForm';
+import Request from '../helpers/request';
 
 const PirateContainer = () => {
 
@@ -11,10 +12,10 @@ const PirateContainer = () => {
   const [raids, setRaids] = useState([])
 
   useEffect(() => {
-    // TODO update to use API request
-    const piratePromise = [];
-    const shipPromise = [];
-    const raidPromise = [];
+    const request = new Request();
+    const piratePromise = request.get('/api/pirates');
+    const shipPromise = request.get('/api/ships');
+    const raidPromise = request.get('/api/raids');
 
     Promise.all([piratePromise, shipPromise, raidPromise])
       .then((data) => {
@@ -37,8 +38,12 @@ const PirateContainer = () => {
   };
 
   const handleDelete = (id) => {
-    // TODO: use API to delete by ID
-    window.location = '/pirates';
+    const request = new Request();
+    const url = '/api/pirates' + id;
+    request.delete(url).then(() => {
+      window.location = '/pirates';
+
+    })
   }
 
   const handlePost = (pirate) => {
